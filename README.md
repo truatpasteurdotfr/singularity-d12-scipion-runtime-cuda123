@@ -19,6 +19,11 @@ Tru <tru@pasteur.fr>
 - `setup.sh` build the container and install scipion3 conda environment
 - `scipion3.sh` run scipion3 from the container
 
+## use the artefact produced on github instead of building your own:
+```
+apptainer build ghrc-io-singularity-d12-scipion-runtime-cuda123.sif oras://ghcr.io/truatpasteurdotfr/singularity-d12-scipion-runtime-cuda123:latest
+```
+
 ## References
 - https://scipion.i2pc.es/
 
