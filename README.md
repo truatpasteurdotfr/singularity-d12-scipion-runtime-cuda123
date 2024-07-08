@@ -15,7 +15,7 @@ Tru <tru@pasteur.fr>
 	- install any plugin/binary
 - use mksquashfs "freeze" your scipion and share it with the debian runtime
 
-## helper scripts (read and modify to your needsi especially `_S` and `_B`)
+## helper scripts (read and modify to your needs especially `_S` and `_B`)
 - `setup.sh` build the container and install scipion3 conda environment
 - `scipion3.sh` run scipion3 from the container
 
